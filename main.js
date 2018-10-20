@@ -1,9 +1,3 @@
-/*Create two arrays, one for the questions and one for the answers
-
-let question = ['Question1', 'Question2'];
-
-let answer = ['Answer1', 'Answer2'];
-*/
 
 //Create flashcard array/object with questions and answers
 let flashCard = [
@@ -39,9 +33,4 @@ function submitQA() {
     flashCard.push([Q, A]);
     document.getElementById('newQuestion').value = '';
     document.getElementById('newAnswer').value = '';
-}
-
-//Allow user to delete a current card
-function deleteCard() {
-
-}
+};
