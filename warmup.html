@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+
+<body>
+    <h1 id="hh" onclick="changeColorAndText()">click here</h1>
+</body>
+
+<script>
+    function changeColorAndText() {
+        if(hh.style.color === 'red' && hh.innerText === 'OMG') {
+            hh.style.color = 'blue';
+            hh.innerText = 'Yooo';
+            console.log('Hello World!');
+        } else {
+            hh.style.color = 'red';
+            hh.innerText = 'OMG';
+            console.log('Hello World!');
+        };            
+    };
+</script>
+</html>

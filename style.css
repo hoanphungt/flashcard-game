@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: lightgrey;
+}
+
+#container {
+    margin: 20px auto;
+    width: 500px;
+    border: 1px solid brown;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: blanchedalmond;
+}
+
+#questionCard, #answerCard {
+    margin: 30px auto;
+    width: 450px;
+    height: 50px;
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 26px;
+}
+
+#inputContainer {
+    padding-top: 60px;
+    text-align: center;
+}
+
+#deleteContainer {
+    text-align: center;
+}
+
+#deleteButton {
+    background-color: blanchedalmond;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid brown;
+    padding: 10px;
+}
+
+#addQuestion, #addAnswer, #addNewCard {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+}
+
